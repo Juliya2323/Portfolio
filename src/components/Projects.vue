@@ -355,5 +355,9 @@ const img3 = ref(Img3);
       line-height: 150%;
     }
   }
+
+  &_item_img {
+    height: fit-content;
+  }
 }
 </style>
