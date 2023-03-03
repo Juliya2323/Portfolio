@@ -3,15 +3,15 @@
     h2.projects_title Projects
     .projects_gallery
       a.projects_item_first(href='https://learning-app-aefd1.web.app/' target="_blank")
-        img.projects_item_img(:src="img2")
+        img.projects_item_img_first(:src="img1")
         h4.projects_item_title Web app to find a mentor
         p.projects_item_description Stack: Vue.js (Options API), JavaScript, HTML, BEM, SCSS, Vuex, Vue Router, REST API 
       a.projects_item_second(href='https://nft-landing-ad3ef.web.app' target="_blank")
-        img.projects_item_img(:src="img1")
+        img.projects_item_img_second(:src="img2")
         h4.projects_item_title Landing page
         p.projects_item_description Stack: Vue.js (Composition API), JavaScript, HTML, BEM, SCSS, Vite
       a.projects_item_third(href='https://crm-system23.netlify.app' target="_blank")
-        img.projects_item_img(:src="img3")
+        img.projects_item_img_third(:src="img3")
         h4.projects_item_title CRM system
         p.projects_item_description Stack: Vue.js (Composition API), JavaScript, PUG, SCSS, Vite, Pinia, Vue Router
 </template>
@@ -113,11 +113,15 @@ const img3 = ref(Img3);
     }
 
     @media (max-width: 925px) {
-      width: 343px;
+      width: 472px;
     }
 
-    @media (max-width: 368px) {
+    @media (max-width: 555px) {
       width: 329px;
+    }
+
+    @media (max-width: 360px) {
+      width: 305px;
     }
 
     &::before {
@@ -147,17 +151,17 @@ const img3 = ref(Img3);
       }
 
       @media (max-width: 925px) {
-        bottom: 155px;
+        bottom: 121px;
       }
 
-      @media (max-width: 925px) {
+      @media (max-width: 555px) {
         bottom: 166px;
       }
     }
   }
 
   &_item_second {
-    width: 352px;
+    width: 320px;
 
     @media (max-width: 1800px) {
       width: 290px;
@@ -172,11 +176,15 @@ const img3 = ref(Img3);
     }
 
     @media (max-width: 925px) {
-      width: 343px;
+      width: 472px;
     }
 
-    @media (max-width: 368px) {
+    @media (max-width: 555px) {
       width: 329px;
+    }
+
+    @media (max-width: 360px) {
+      width: 305px;
     }
 
     &::before {
@@ -206,7 +214,11 @@ const img3 = ref(Img3);
       }
 
       @media (max-width: 925px) {
-        bottom: 121px;
+        bottom: 99px;
+      }
+
+      @media (max-width: 555px) {
+        bottom: 122px;
       }
     }
   }
@@ -227,11 +239,15 @@ const img3 = ref(Img3);
     }
 
     @media (max-width: 925px) {
-      width: 343px;
+      width: 472px;
     }
 
-    @media (max-width: 368px) {
+    @media (max-width: 555px) {
       width: 329px;
+    }
+
+    @media (max-width: 360px) {
+      width: 305px;
     }
 
     &::before {
@@ -356,8 +372,92 @@ const img3 = ref(Img3);
     }
   }
 
-  &_item_img {
-    height: fit-content;
+  &_item_img_first {
+    height: 560px;
+    width: 491px;
+
+    @media (max-width: 1800px) {
+      width: 400px;
+    }
+
+    @media (max-width: 1600px) {
+      width: 260px;
+      height: 387px;
+    }
+
+    @media (max-width: 925px) {
+      width: 472px;
+      height: 472px;
+    }
+
+    @media (max-width: 555px) {
+      width: 329px;
+      height: 329px;
+    }
+
+    @media (max-width: 360px) {
+      width: 305px;
+      height: 305px;
+    }
+  }
+
+  &_item_img_second {
+    height: 352px;
+    width: 320px;
+
+    @media (max-width: 1800px) {
+      width: 290px;
+    }
+
+    @media (max-width: 1600px) {
+      width: 190px;
+      height: 208px;
+    }
+
+    @media (max-width: 925px) {
+      width: 472px;
+      height: 472px;
+    }
+
+    @media (max-width: 555px) {
+      width: 329px;
+      height: 329px;
+    }
+
+    @media (max-width: 360px) {
+      width: 305px;
+      height: 305px;
+    }
+    
+  }
+
+  &_item_img_third {
+    height: 420px;
+    width: 352px;
+
+    @media (max-width: 1800px) {
+      width: 290px;
+    }
+
+    @media (max-width: 1600px) {
+      width: 190px;
+      height: 270px;
+    }
+
+    @media (max-width: 925px) {
+      width: 472px;
+      height: 472px;
+    }
+
+    @media (max-width: 555px) {
+      width: 329px;
+      height: 329px;
+    }
+
+    @media (max-width: 360px) {
+      width: 305px;
+      height: 305px;
+    }
   }
 }
 </style>

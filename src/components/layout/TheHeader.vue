@@ -7,7 +7,6 @@
     .header_nav 
       button.header_button(@click='switchNav')
         base-burger(:class="{opened: navIsOpen}")
-        //img.header_burger(src='../../assets/icons/burger.svg')
       ul.nav_list(:class="{open: navIsOpen}")
         li.nav_list_item(@click="switchNavList")
           a.nav_list_item_link(href='#cv') CV
@@ -82,7 +81,7 @@ function switchNavList() {
     }
 
     &:hover {
-      font-size: 16.5px;
+      color: #FF5454;
     }
   }
 
@@ -99,7 +98,7 @@ function switchNavList() {
     }
 
     &:hover {
-      font-size: 16.5px;
+      color: #FF5454;
     }
   }
 

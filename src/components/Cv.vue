@@ -127,6 +127,7 @@ const technikalSkills2 = [
     position: relative;
     width: 100%;
     white-space: nowrap;
+    border: 1px solid transparent;
 
     &::after {
       content: url("../assets/icons/download.svg");

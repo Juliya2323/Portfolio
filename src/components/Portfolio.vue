@@ -161,12 +161,13 @@ const photo = ref(Photo);
     &::after {
       content: url("../assets/icons/arrow.svg");
       position: absolute;
-      top: 17px;
+      top: 16px;
       right: 37px;
+      transform: rotate(90deg);
 
       @media (max-width: 1800px) {
-        top: 14px;
-        right: 22px;
+        top: 13px;
+        right: 24px;
       }
     }
   }

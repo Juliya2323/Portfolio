@@ -1,6 +1,6 @@
 <template lang="pug">
 footer.footer 
-    p.footer_text Say Hello! Contact me
+    p.footer_text Contact me for any questions or feedback.
     a.footer_link(:href="'mailto:' + 'yuliya0km@gmail.com'") yuliya0km@gmail.com
 </template>
 
@@ -13,14 +13,10 @@ footer.footer
     align-items: center;
 
     @media (max-width: 1800px) {
-        padding: 10px 0 20px;
+        padding: 40px 0 20px;
     }
 
-    @media (max-width: 1250px) {
-        padding: 0 0 10px;
-    }
-
-    @media (max-width: 530px) {
+    @media (max-width: 750px) {
       flex-direction: column;
     }
 
@@ -44,6 +40,7 @@ footer.footer
 
         @media (max-width: 530px) {
             line-height: 34px;
+            text-align: center;
         }
     }
 
