@@ -407,6 +407,7 @@ const img3 = ref(Img3);
 
     @media (max-width: 1800px) {
       width: 290px;
+      height: 334px;
     }
 
     @media (max-width: 1600px) {
@@ -437,6 +438,7 @@ const img3 = ref(Img3);
 
     @media (max-width: 1800px) {
       width: 290px;
+      height: 397px;
     }
 
     @media (max-width: 1600px) {
