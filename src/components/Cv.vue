@@ -2,7 +2,8 @@
 .cv 
   .cv_container
     h2.cv_title CV
-    base-button.cv_button Download CV
+    a.cv_link(href='../assets/cv/Frontend Developer - Yuliya Poznyak.pdf' download)
+      base-button.cv_button Download CV
   .cv_wrapper
     .cv_item
       .cv_item_title 
