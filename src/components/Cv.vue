@@ -2,7 +2,7 @@
 .cv 
   .cv_container
     h2.cv_title CV
-    a.cv_link(href='public/cv.pdf' download='Frontend Developer - Yuliya Poznyak.pdf')
+    a.cv_link(href='/cv.pdf' download='Frontend Developer - Yuliya Poznyak.pdf')
       base-button.cv_button Download CV
   .cv_wrapper
     .cv_item
