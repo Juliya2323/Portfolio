@@ -133,29 +133,25 @@ const img3 = ref(Img3);
       padding: 12px 24px;
       background-color: #ffffff;
       border-radius: 40px;
-      bottom: 240px;
+      top: 500px;
       left: 15px;
 
-      @media (max-width: 1800px) {
-        bottom: 196px;
-      }
-
       @media (max-width: 1600px) {
-        bottom: 210px;
+        top: 331px;
         padding: 10px 12px;
       }
 
       @media (max-width: 1250px) {
-        bottom: 165px;
+        top: 335px;
         left: 11px;
       }
 
       @media (max-width: 925px) {
-        bottom: 121px;
+        top: 420px;
       }
 
       @media (max-width: 555px) {
-        bottom: 166px;
+        top: 276px;
       }
     }
   }
@@ -196,29 +192,29 @@ const img3 = ref(Img3);
       padding: 12px 24px;
       background-color: #ffffff;
       border-radius: 40px;
-      bottom: 170px;
+      top: 292px;
       left: 15px;
 
       @media (max-width: 1800px) {
-        bottom: 142px;
+        top: 275px;
       }
 
       @media (max-width: 1600px) {
-        bottom: 208px;
+        top: 153px;
         padding: 10px 12px;
       }
 
       @media (max-width: 1250px) {
-        bottom: 166px;
+        top: 154px;
         left: 11px;
       }
 
       @media (max-width: 925px) {
-        bottom: 99px;
+        top: 418px;
       }
 
       @media (max-width: 555px) {
-        bottom: 122px;
+        top: 276px;
       }
     }
   }
@@ -259,26 +255,29 @@ const img3 = ref(Img3);
       padding: 12px 24px;
       background-color: #ffffff;
       border-radius: 40px;
-      bottom: 200px;
+      top: 360px;
       left: 15px;
 
       @media (max-width: 1800px) {
-        bottom: 142px;
+        top: 336px;
       }
 
       @media (max-width: 1600px) {
-        bottom: 209px;
-
+        top: 215px;
         padding: 10px 12px;
       }
 
       @media (max-width: 1250px) {
-        bottom: 166px;
+        top: 218px;
         left: 11px;
       }
 
       @media (max-width: 925px) {
-        bottom: 121px;
+        top: 419px;
+      }
+
+      @media (max-width: 555px) {
+        top: 276px;
       }
     }
   }
