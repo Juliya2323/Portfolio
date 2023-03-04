@@ -63,14 +63,15 @@ const technikalSkills1 = [
   "Pinia/Vuex",
   "CSS / SASS / Bootstrap",
   "HTML / BEM / PUG",
+  "Vite",  
 ];
-const technikalSkills2 = [
-  "Vite",   
+const technikalSkills2 = [  
   "Vuetify",
   "Firebase",
   "Git",
   "UX/UI basics",
-  'Jira'
+  'Jira / Trello ',
+  'Angular basics'
 ];
 </script>
 
