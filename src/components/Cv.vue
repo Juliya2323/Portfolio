@@ -58,18 +58,19 @@ const keySkills = [
 ];
 const technikalSkills1 = [
   "Vue.js",
-  "Vite",
-  "Pinia/Vuex",
+  "JavaScript / TypeScript",
   "Vue Router, REST API",
+  "Pinia/Vuex",
   "CSS / SASS / Bootstrap",
   "HTML / BEM / PUG",
 ];
 const technikalSkills2 = [
-  "JavaScript / TypeScript",
+  "Vite",   
   "Vuetify",
   "Firebase",
   "Git",
   "UX/UI basics",
+  'Jira'
 ];
 </script>
 
