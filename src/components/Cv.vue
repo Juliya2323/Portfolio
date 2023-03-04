@@ -53,7 +53,7 @@ const keySkills = [
   "Excellent knowledge of JavaScript/Vue/Vuex/Pinia/Vue Router/ REST API",
   "Work with preprocessors (Sass, PUG)",
   "Knowledge of SPA design patterns",
-  "Selection of optimal libraries such as and components for project implementation",
+  "Selection of optimal libraries and components for project implementation",
   "Responsive design and optimizing web applications for different screen sizes and devices",
 ];
 const technikalSkills1 = [
