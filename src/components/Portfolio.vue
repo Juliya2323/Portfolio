@@ -126,8 +126,8 @@ const photo = ref(Photo);
       cursor: pointer;
 
       &:hover {
-            text-decoration: underline 1px solid #FF5454;
-            text-underline-offset: 6px;
+        text-decoration: underline 1px solid #ff5454;
+        text-underline-offset: 6px;
       }
     }
   }
