@@ -200,6 +200,10 @@ const technikalSkills2 = [
         width: 30%;
       }
 
+      @media (max-width: 500px) {
+        width: 90%;
+      }
+
       &_text {
         display: inline-block;
         font-weight: 400;

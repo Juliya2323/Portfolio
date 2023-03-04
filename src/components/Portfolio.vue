@@ -189,7 +189,11 @@ const photo = ref(Photo);
 
     @media (max-width: 435px) {
       width: 329px;
-      height: 431.2px;
+      height: 415.2px;
+    }
+
+    @media (max-width: 500px) {
+      align-self: center;
     }
   }
 }

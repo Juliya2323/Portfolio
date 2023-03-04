@@ -70,10 +70,7 @@ footer.footer
             font-size: 24px;
         }
 
-        @media (max-width: 530px) {
-            line-height: 34px;
-            font-size: 18px;
-        }
+        
     }
 }
 </style>
